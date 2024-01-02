@@ -19,30 +19,32 @@
 		  <div class="flex">
 			<img src="https://gluu.org/wp-content/uploads/2020/12/logo.png">
 		  </div>
-		  <p class="leading-normal">1. Scan Code</p>
-		  <div id="qrcode" style="width: 200px; height: 200px; margin-top: 15px"></div>
+		  <p class="leading-normal">1. Scan Code
+		  </p>
+		  <div id="qrcode" class="w-48 h-48">
+		  </div>
 		</div>
-		<div class="flex flex-col items-center space-y-3">  
-		  <p class="leading-normal">2. Enter the code from Authenticator App</p>
+		<div class="flex flex-col items-center space-y-3">
+		  <p class="leading-normal">2. Enter the code from Authenticator App
+		  </p>
 		  <form method="post" class="mt-8">
-		  <div id="otp" class="flex flex-row justify-center text-center px-2 mt-5">
-			<input type="text" id="first" name="first" maxlength="1" class="m-2 border h-10 w-10 text-center form-control rounded">
-			<input type="text" id="second" name="second" maxlength="1" class="m-2 border h-10 w-10 text-center form-control rounded">
-			<input type="text" id="third" name="third" maxlength="1" class="m-2 border h-10 w-10 text-center form-control rounded">
-			<input type="text" id="fourth" name="fourth" maxlength="1" class="m-2 border h-10 w-10 text-center form-control rounded">
-			<input type="text" id="fifth" name="fifth" maxlength="1" class="m-2 border h-10 w-10 text-center form-control rounded">
-			<input type="text" id="sixth" name="sixth" maxlength="1" class="m-2 border h-10 w-10 text-center form-control rounded">
-		  </div>
-		  <div class="space-y-9 mt-4">
-			<div class="text-sm flex justify-center items-center">
-			  <button type="submit" class="py-2 px-6 rounded text-white btn bg-green-500 hover:bg-green-600">
-				Submit
-			  </button>
+			<div id="otp" class="flex flex-row justify-center text-center px-2 mt-5">
+			  <input type="text" id="first" name="first" maxlength="1" class="m-2 border h-10 w-10 text-center form-control rounded">
+			  <input type="text" id="second" name="second" maxlength="1" class="m-2 border h-10 w-10 text-center form-control rounded">
+			  <input type="text" id="third" name="third" maxlength="1" class="m-2 border h-10 w-10 text-center form-control rounded">
+			  <input type="text" id="fourth" name="fourth" maxlength="1" class="m-2 border h-10 w-10 text-center form-control rounded">
+			  <input type="text" id="fifth" name="fifth" maxlength="1" class="m-2 border h-10 w-10 text-center form-control rounded">
+			  <input type="text" id="sixth" name="sixth" maxlength="1" class="m-2 border h-10 w-10 text-center form-control rounded">
 			</div>
-		  </div>
-		</form>
+			<div class="space-y-9 mt-4">
+			  <div class="text-sm flex justify-center items-center">
+				<button type="submit" class="py-2 px-6 rounded text-white btn bg-green-500 hover:bg-green-600">
+				  Submit
+				</button>
+			  </div>
+			</div>
+		  </form>
 		</div>
-		
 	  </div>
 	</div>
   
