@@ -1,2 +1,3 @@
 Flow io.agama.totp
      Basepath ""
+Log "@info info"
