@@ -15,6 +15,9 @@
             "agama"
         ],
         "noDirectLaunch": [],
-        "configs": {}
+        "configs": {
+            "io.agama.totp": {}
+        },
+        "name": "agama-otp"
     }
 }
