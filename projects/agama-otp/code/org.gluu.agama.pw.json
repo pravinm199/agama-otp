@@ -159,7 +159,7 @@
 				"x": 1922,
 				"y": 618
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{
@@ -848,7 +848,9 @@
 					"flowfilename": "",
 					"assignments": [],
 					"callType": "Call static method",
-					"arguments": "",
+					"arguments": [
+						""
+					],
 					"logMessage": "",
 					"templatePath": "",
 					"maxIteration": "",
@@ -863,12 +865,14 @@
 					"maxIterationVariableName": "",
 					"logLevel": "",
 					"assignCallbackResult": "",
-					"displayName": "basic",
+					"displayName": "gluu agama pw",
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"hasExtraData": false,
 					"configParams": "{}",
-					"flowname": "org.gluu.agama.pw"
+					"flowname": "org.gluu.agama.pw",
+					"timeout": "",
+					"inputs": ""
 				},
 				"skake": false
 			},
@@ -876,7 +880,7 @@
 				"x": 34,
 				"y": 82
 			},
-			"selected": false,
+			"selected": true,
 			"positionAbsolute": {
 				"x": 34,
 				"y": 82
