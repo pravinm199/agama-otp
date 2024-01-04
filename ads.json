@@ -15,7 +15,9 @@
             "agama"
         ],
         "noDirectLaunch": [],
-        "configs": {},
+        "configs": {
+            "org.gluu.agama.totp": {}
+        },
         "name": "agama-otp"
     }
 }
