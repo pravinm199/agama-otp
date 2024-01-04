@@ -1,2 +1,4 @@
 Flow org.gluu.agama.otp.enroll
      Basepath ""
+// otp enrollment
+Log "@info otp enrollment"
