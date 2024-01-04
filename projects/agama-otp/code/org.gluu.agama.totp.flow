@@ -1,2 +1,4 @@
 Flow org.gluu.agama.totp
      Basepath ""
+// user authn
+Log "@info user authn"
