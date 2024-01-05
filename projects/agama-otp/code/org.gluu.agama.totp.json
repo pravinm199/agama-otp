@@ -3,6 +3,48 @@
 		{
 			"width": 170,
 			"height": 121,
+			"id": "Agama-trigger-Node-e55136b1-e061-4ca6-9a25-05afeb5e2d8b",
+			"position": {
+				"x": 472,
+				"y": 120
+			},
+			"type": "trigger",
+			"data": {
+				"id": "Agama-trigger-Node-e55136b1-e061-4ca6-9a25-05afeb5e2d8b",
+				"type": "Agama-trigger-Node",
+				"parentId": "Agama-log-Node-cb7fc7cb-a84c-4c28-aea3-e9d7bbf1683a",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"position": {
+					"x": 472,
+					"y": 120
+				},
+				"agamaData": {
+					"id": "Agama-trigger-Node-e55136b1-e061-4ca6-9a25-05afeb5e2d8b",
+					"parentId": "Agama-log-Node-cb7fc7cb-a84c-4c28-aea3-e9d7bbf1683a",
+					"type": "Agama-trigger-Node",
+					"displayName": "Trigger User Authn PW",
+					"hasComment": true,
+					"comment": "Username password login",
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"nodeIcon": "fluent-mdl2:trigger-approval",
+					"flowFileName": "org.gluu.agama.pw",
+					"arguments": [],
+					"asssignedVariableName": "user",
+					"exceptionVariableField": "E"
+				}
+			},
+			"selected": true,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 472,
+				"y": 120
+			}
+		},
+		{
+			"width": 170,
+			"height": 121,
 			"id": "Agama-log-Node-cb7fc7cb-a84c-4c28-aea3-e9d7bbf1683a",
 			"position": {
 				"x": 272,
@@ -31,9 +73,10 @@
 					"logMessage": "\"user authn\"",
 					"logLevel": "info",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 272,
@@ -89,6 +132,23 @@
 			"type": "straight",
 			"source": "Agama-start-Flow-5e5f716c-d68a-48fe-9ab3-ce1d4292176e",
 			"target": "Agama-log-Node-cb7fc7cb-a84c-4c28-aea3-e9d7bbf1683a",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
+		},
+		{
+			"id": "Agama-log-Node-cb7fc7cb-a84c-4c28-aea3-e9d7bbf1683a-Agama-trigger-Node-e55136b1-e061-4ca6-9a25-05afeb5e2d8b-40284e17-518c-4a8e-850f-9a2528d70c19",
+			"type": "straight",
+			"source": "Agama-log-Node-cb7fc7cb-a84c-4c28-aea3-e9d7bbf1683a",
+			"target": "Agama-trigger-Node-e55136b1-e061-4ca6-9a25-05afeb5e2d8b",
 			"label": "",
 			"labelBgPadding": [
 				8,
