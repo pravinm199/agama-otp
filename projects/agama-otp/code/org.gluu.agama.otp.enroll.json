@@ -3,6 +3,48 @@
 		{
 			"width": 170,
 			"height": 121,
+			"id": "Agama-rrf-Node-2fb5c7e5-ecbf-4c82-8e15-822c5105d11a",
+			"position": {
+				"x": 873,
+				"y": 76
+			},
+			"type": "rrf",
+			"data": {
+				"id": "Agama-rrf-Node-2fb5c7e5-ecbf-4c82-8e15-822c5105d11a",
+				"type": "Agama-rrf-Node",
+				"parentId": "Agama-call-Node-c688f0d8-21d7-46cd-9e05-8f7ec0401036",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"position": {
+					"x": 873,
+					"y": 76
+				},
+				"agamaData": {
+					"id": "Agama-rrf-Node-2fb5c7e5-ecbf-4c82-8e15-822c5105d11a",
+					"parentId": "Agama-call-Node-c688f0d8-21d7-46cd-9e05-8f7ec0401036",
+					"type": "Agama-rrf-Node",
+					"displayName": "load enroll page",
+					"hasComment": true,
+					"comment": "",
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"assignments": [],
+					"nodeIcon": "ph:globe-simple",
+					"templatePath": "enroll.ftlh",
+					"asssignedVariableName": "successScan",
+					"arguments": "secretKeyUri"
+				}
+			},
+			"selected": true,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 873,
+				"y": 76
+			}
+		},
+		{
+			"width": 170,
+			"height": 121,
 			"id": "Agama-call-Node-c688f0d8-21d7-46cd-9e05-8f7ec0401036",
 			"position": {
 				"x": 673,
@@ -40,9 +82,10 @@
 					],
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "secretKeyUri"
-				}
+				},
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 673,
@@ -219,6 +262,23 @@
 			"type": "straight",
 			"source": "Agama-call-Node-4fc43ccf-0635-4caa-b29f-d19bb783b4a8",
 			"target": "Agama-call-Node-c688f0d8-21d7-46cd-9e05-8f7ec0401036",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
+		},
+		{
+			"id": "Agama-call-Node-c688f0d8-21d7-46cd-9e05-8f7ec0401036-Agama-rrf-Node-2fb5c7e5-ecbf-4c82-8e15-822c5105d11a-622eca77-bcf7-403a-a714-e7ac467cd137",
+			"type": "straight",
+			"source": "Agama-call-Node-c688f0d8-21d7-46cd-9e05-8f7ec0401036",
+			"target": "Agama-rrf-Node-2fb5c7e5-ecbf-4c82-8e15-822c5105d11a",
 			"label": "",
 			"labelBgPadding": [
 				8,
