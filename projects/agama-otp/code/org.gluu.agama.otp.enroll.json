@@ -28,10 +28,11 @@
 					"comment": "otp enrollment",
 					"whenCondition": "",
 					"inRepeatBlock": false,
-					"logMessage": "\"otp enrollment\"",
+					"logMessage": "\"otp enrollment for user \" userId",
 					"logLevel": "info",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
 			"selected": true,
 			"dragging": false,
@@ -65,7 +66,7 @@
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-start-square",
 					"timeout": "",
-					"inputs": "",
+					"inputs": "userId",
 					"configs": "",
 					"flowname": "org.gluu.agama.otp.enroll"
 				},
