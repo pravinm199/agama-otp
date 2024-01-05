@@ -3,3 +3,5 @@ Flow org.gluu.agama.otp.enroll
      Inputs userId
 // otp enrollment
 Log "@info otp enrollment for user " userId
+// Generate secret key 
+secretKey = Call org.gluu.agama.totp.TOTPUtil#generateSecretKey "AES"
