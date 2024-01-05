@@ -2,3 +2,5 @@ Flow org.gluu.agama.totp
      Basepath ""
 // user authn
 Log "@info user authn"
+// Username password login
+user | E = Trigger org.gluu.agama.pw 
