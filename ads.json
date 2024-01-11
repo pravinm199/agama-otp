@@ -18,7 +18,8 @@
         "configs": {
             "org.gluu.agama.totp": {},
             "org.gluu.agama.pw": {},
-            "org.gluu.agama.otp.enroll": {}
+            "org.gluu.agama.otp.enroll": {},
+            "": {}
         },
         "name": "agama-otp"
     }
