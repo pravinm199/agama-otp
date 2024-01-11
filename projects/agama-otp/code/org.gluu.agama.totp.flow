@@ -4,3 +4,4 @@ Flow org.gluu.agama.totp
 Log "@info user authn"
 // Username password login
 user | E = Trigger org.gluu.agama.pw 
+Log "@info user details " user
