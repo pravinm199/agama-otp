@@ -1,6 +1,5 @@
 package org.gluu.agama.totp;
 
-import jarray;
 import java.security.SecureRandom;
 import com.lochbridge.oath.otp.*;
 import com.lochbridge.oath.otp.keyprovisioning.*;
