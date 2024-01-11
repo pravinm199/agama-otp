@@ -5,6 +5,9 @@ import com.lochbridge.oath.otp.*;
 import com.lochbridge.oath.otp.keyprovisioning.*;
 import java.util.concurrent.TimeUnit;
 import com.google.common.io.BaseEncoding;
+import javax.crypto.KeyGenerator;
+import java.security.Key;
+import java.security.NoSuchAlgorithmException;
 
 public class TOTPUtil {
 
