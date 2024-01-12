@@ -32,7 +32,8 @@
 					"returnVariable": "scanCode",
 					"finishMode": "withVariable",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
 			"selected": true,
 			"dragging": false,
@@ -72,7 +73,8 @@
 					"logMessage": "\"scan code : \" scanCode",
 					"logLevel": "info",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
