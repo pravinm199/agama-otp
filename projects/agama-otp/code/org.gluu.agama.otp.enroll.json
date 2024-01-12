@@ -76,7 +76,7 @@
 				},
 				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1508,
@@ -349,7 +349,8 @@
 						}
 					],
 					"nodeIcon": "material-symbols:equal"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -389,15 +390,15 @@
 					"assignments": [],
 					"nodeIcon": "ph:globe-simple",
 					"templatePath": "enroll.ftlh",
-					"asssignedVariableName": "scanCode | E",
+					"asssignedVariableName": "scanCode",
 					"arguments": "obj",
 					"position": {
 						"x": 1023
 					}
 				},
-				"skake": false
+				"skake": true
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1285,
