@@ -8,4 +8,6 @@ secretKey = Call org.gluu.agama.totp.TOTPUtil#generateSecretKey "AES"
 // secret code uri for QR Code
 secretKeyUri | E = Call org.gluu.agama.totp.TOTPUtil#generateTotpSecretKeyUri secretKey "gluu" userId
 Log "@info secretKeyUri : " secretKeyUri  E
-successScan = RRF "enroll.ftlh" secretKeyUri
+scanCode = RRF "enroll.ftlh" secretKeyUri
+Log "@info scan code : " scanCode
+Finish scanCode
