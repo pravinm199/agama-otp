@@ -9,6 +9,6 @@ secretKey = Call org.gluu.agama.totp.TOTPUtil#generateSecretKey "AES"
 secretKeyUri | E = Call org.gluu.agama.totp.TOTPUtil#generateTotpSecretKeyUri secretKey "gluu" userId
 Log "@info secretKeyUri : " secretKeyUri  E
 obj = { secretKeyUri : secretKeyUri }
-scanCode | E = RRF "enroll.ftlh" obj
+scanCode = RRF "enroll.ftlh" obj
 Log "@info scan code : " scanCode E
 Finish scanCode
