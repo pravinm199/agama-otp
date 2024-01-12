@@ -8,4 +8,4 @@ Log "@info user details " user
 userId = user.data.userId
 Log "@info user id " userId
 enrollData | E = Trigger org.gluu.agama.otp.enroll userId
-Log "@info enroll data" enrollData
+Log "@info enroll data" enrollData E
