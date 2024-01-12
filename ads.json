@@ -14,7 +14,9 @@
             "jans",
             "agama"
         ],
-        "noDirectLaunch": [],
+        "noDirectLaunch": [
+            "org.gluu.agama.otp.enroll"
+        ],
         "configs": {
             "org.gluu.agama.totp": {},
             "org.gluu.agama.pw": {},
