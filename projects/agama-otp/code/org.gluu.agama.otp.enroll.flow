@@ -3,7 +3,6 @@ Flow org.gluu.agama.otp.enroll
      Inputs userId
 // otp enrollment
 Log "@info otp enrollment for user " userId
-RRF "enroll.ftlh" 
 // Generate secret key 
 secretKey = Call org.gluu.agama.totp.TOTPUtil#generateSecretKey "AES"
 // secret code uri for QR Code
