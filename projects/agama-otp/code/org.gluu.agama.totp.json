@@ -28,10 +28,11 @@
 					"comment": "",
 					"whenCondition": "",
 					"inRepeatBlock": false,
-					"logMessage": "\"enroll data\" enrollData",
+					"logMessage": "\"enroll data\" enrollData E",
 					"logLevel": "info",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
 			"selected": true,
 			"dragging": false,
@@ -75,7 +76,8 @@
 					],
 					"asssignedVariableName": "enrollData",
 					"exceptionVariableField": "E"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -115,7 +117,8 @@
 					"logMessage": "\"user id \" userId",
 					"logLevel": "info",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -160,7 +163,8 @@
 						}
 					],
 					"nodeIcon": "material-symbols:equal"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -459,8 +463,8 @@
 		}
 	],
 	"viewport": {
-		"x": -497,
-		"y": 15,
+		"x": -571,
+		"y": 9,
 		"zoom": 1
 	}
 }
