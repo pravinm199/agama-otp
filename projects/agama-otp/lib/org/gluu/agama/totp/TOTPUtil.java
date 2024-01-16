@@ -50,6 +50,20 @@ public class TOTPUtil {
         return uri.toUriString();
     }
 
+    // Method to validate TOTP
+    public static boolean validateTOTP(String clientTOTP, String secretKey) {
+        int digits = 6;
+        int timeStep = 30;
+
+        byte[] key = secretKey.getBytes();
+        TOTP totp = TOTP.key(key).timeStep(TimeUnit.SECONDS.toMillis(timeStep)).digits(digits).hmacSha1().build();
+        if (totp.value().equals(clientTOTP)) {
+            return true
+        } else {
+            return false
+        }
+    }
+
     private static String base32Encode(String input) {
         byte[] bytesToEncode = input.getBytes();
         return BaseEncoding.base32().omitPadding().encode(bytesToEncode);
