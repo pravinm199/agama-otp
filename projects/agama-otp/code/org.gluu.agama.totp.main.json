@@ -373,7 +373,7 @@
 					"timeout": "",
 					"inputs": "",
 					"configs": "",
-					"flowname": "org.gluu.agama.totp"
+					"flowname": "org.gluu.agama.totp.main"
 				},
 				"skake": false
 			},

@@ -163,7 +163,7 @@
 					"timeout": "",
 					"inputs": "userId",
 					"configs": "",
-					"flowname": "org.gluu.agama.otp.enroll"
+					"flowname": "org.gluu.agama.totp.otp"
 				},
 				"skake": false
 			},
