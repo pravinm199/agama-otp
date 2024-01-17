@@ -13,4 +13,4 @@ scanCode = RRF "enroll.ftlh" obj
 Log "@info scan code : " scanCode.code
 otpCheck | E = Call org.gluu.agama.totp.TOTPUtil#validateTOTP scanCode.code secretKey
 Log "@info otp check result " otpCheck
-Finish scanCode
+Finish otpCheck
