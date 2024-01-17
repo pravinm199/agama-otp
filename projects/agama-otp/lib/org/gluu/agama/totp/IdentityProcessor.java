@@ -24,7 +24,7 @@ public class IdentityProcessor {
     private static final String EXT_UID_PREFIX = "totp:";
    
     public static String externalIdOf(String id) {
-        return EXT_UID_PREFIX + id;
+        return id;
     }
     
     public static String link(String uid, String totpSecretKey)
