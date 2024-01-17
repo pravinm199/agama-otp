@@ -9,6 +9,7 @@ userId = user.data.userId
 Log "@info user id " userId
 userTOTPSecretKey | E = Call org.gluu.agama.totp.IdentityProcessor#getUserTOTPSecretKey userId
 Log "@info user TOTP secret key from flow " userTOTPSecretKey
+enrollData = false
 // if no enrollment exist
 When userTOTPSecretKey is null
      enrollData | E = Trigger org.gluu.agama.otp.enroll userId
