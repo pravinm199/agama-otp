@@ -405,7 +405,8 @@
 					],
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "otpCheck"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"positionAbsolute": {
@@ -445,9 +446,10 @@
 					"logMessage": "\"otp check result \" otpCheck",
 					"logLevel": "info",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1936,
@@ -483,7 +485,7 @@
 					"hasComment": true,
 					"comment": "",
 					"flowfilename": "",
-					"returnVariable": "scanCode",
+					"returnVariable": "otpCheck",
 					"finishMode": "withVariable",
 					"nodeIcon": "material-symbols:line-end-square-rounded",
 					"position": {
@@ -492,7 +494,7 @@
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 2125,
@@ -699,8 +701,8 @@
 		}
 	],
 	"viewport": {
-		"x": -727,
-		"y": 89,
+		"x": -1039,
+		"y": 105,
 		"zoom": 1
 	}
 }
