@@ -34,7 +34,7 @@
 				},
 				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1472,
@@ -109,7 +109,7 @@
 					"id": "Agama-log-Node-2b76cda3-0e65-41ad-936b-0c9b32cf705c",
 					"parentId": "Agama-assignment-Node-991ae6f6-437f-45ef-927e-51659e977511",
 					"type": "Agama-log-Node",
-					"displayName": "",
+					"displayName": "userId log",
 					"hasComment": true,
 					"comment": "",
 					"whenCondition": "",
@@ -120,7 +120,7 @@
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1072,
@@ -150,7 +150,7 @@
 					"id": "Agama-assignment-Node-991ae6f6-437f-45ef-927e-51659e977511",
 					"parentId": "Agama-log-Node-9d24eef3-4e4c-4647-a215-407f7fb0b575",
 					"type": "Agama-assignment-Node",
-					"displayName": "",
+					"displayName": "userId",
 					"hasComment": true,
 					"comment": "",
 					"whenCondition": "",
@@ -463,8 +463,8 @@
 		}
 	],
 	"viewport": {
-		"x": -571,
-		"y": 9,
+		"x": -400,
+		"y": 4,
 		"zoom": 1
 	}
 }
