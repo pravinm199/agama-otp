@@ -14,3 +14,4 @@ enrollData = false
 When userTOTPSecretKey is null
      enrollData | E = Trigger org.gluu.agama.otp.enroll userId
      Log "@info enroll " enrollData E
+enrollData | E = Call org.gluu.agama.totp.TOTPUtil#validateTOTP otp userTOTPSecretKey
