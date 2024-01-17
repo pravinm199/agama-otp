@@ -333,7 +333,8 @@
 					],
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "userTOTPSecretKey"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"positionAbsolute": {
@@ -365,7 +366,7 @@
 					"id": "Agama-log-Node-9e877173-94de-48c1-a807-cde1025de181",
 					"parentId": "Agama-call-Node-c9f0bffa-db46-4080-8661-c51de76a3ef5",
 					"type": "Agama-log-Node",
-					"displayName": "",
+					"displayName": "log user TOTP secret key",
 					"hasComment": true,
 					"comment": "",
 					"whenCondition": "",
@@ -373,7 +374,8 @@
 					"logMessage": "\"user TOTP secret key from flow \" userTOTPSecretKey",
 					"logLevel": "info",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
 			"selected": true,
 			"positionAbsolute": {
