@@ -48,6 +48,19 @@ public class IdentityProcessor {
         return jansExtUidFieldValue
     }
 
+    public static String getUserTOTPSecretKey(String uid)
+        throws Exception {
+        User user = getUser(UID, uid);
+
+        if (user == null) {
+            logger.error("User identified with {} not found!", uid);
+            throw new IOException("Target user for account linking does not exist");
+        }
+        String jansExtUidFieldValue = getSingleValuedAttr(user, extUidPrefixTotpSecretKey);
+        logger.debug("User ext uid getUserTOTPSecretKey ", jansExtUidFieldValue);
+        return jansExtUidFieldValue
+    }
+
     private static User getUser(String attributeName, String value) {
         UserService userService = CdiUtil.bean(UserService.class);
         return userService.getUserByAttribute(attributeName, value, true);
