@@ -31,7 +31,8 @@
 					"logMessage": "\"enroll \" enrollData E",
 					"logLevel": "info",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
 			"selected": true,
 			"dragging": false,
@@ -75,7 +76,8 @@
 					],
 					"asssignedVariableName": "enrollData",
 					"exceptionVariableField": "E"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -118,7 +120,8 @@
 				"handles": [
 					"Agama-when-Node-4fa47f26-e1e3-4d4f-b40d-31de2ff74da4.FAILURE",
 					"Agama-when-Node-4fa47f26-e1e3-4d4f-b40d-31de2ff74da4.SUCCESS"
-				]
+				],
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
